@@ -14,6 +14,7 @@ import os
 import tempfile
 from typing import Optional
 
+
 from database import init_db, get_db, Student, VoicePrint, AuthenticationLog
 from feature_extractor import VoiceFeatureExtractor
 from auth_model import VoiceAuthenticationModel
