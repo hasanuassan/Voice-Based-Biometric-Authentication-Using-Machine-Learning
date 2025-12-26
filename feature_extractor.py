@@ -9,6 +9,7 @@ import json
 from scipy import signal
 from config import *
 
+
 class VoiceFeatureExtractor:
     """Extract comprehensive voice features for biometric authentication"""
     
