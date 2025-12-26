@@ -23,6 +23,10 @@ class VoiceFeatureExtractor:
         self.hop_length = HOP_LENGTH
         self.n_fft = N_FFT
     
+
+
+
+    
     def extract_mfcc(self, audio, sr=None):
         """
         Extract Mel-Frequency Cepstral Coefficients (MFCC)
