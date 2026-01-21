@@ -274,3 +274,4 @@ class VoiceAuthenticationModel:
         self.is_trained = True
         return True
 
+

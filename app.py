@@ -640,6 +640,8 @@ def main():
         except requests.exceptions.RequestException as e:
             st.error(f"Connection error: {str(e)}")
             st.info("Make sure the API server is running on http://localhost:8000")
+    
+
 
 def generate_chatbot_response(query, api_base_url):
     """Generate chatbot response based on user query"""

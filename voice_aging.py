@@ -95,3 +95,4 @@ class VoiceAgingAdapter:
         # Adapt if similarity is above threshold (user is verified)
         return similarity >= similarity_threshold
 
+
